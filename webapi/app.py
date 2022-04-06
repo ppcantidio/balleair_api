@@ -13,3 +13,6 @@ app.register_blueprint(flights_routes, url_prefix='/api/v1/flight')
 
 from webapi.routes.bookings import bookings_routes
 app.register_blueprint(flights_routes, url_prefix='/api/v1/booking')
+
+from webapi.routes.users import users_routes
+app.register_blueprint(flights_routes, url_prefix='/api/v1/user')
